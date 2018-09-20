@@ -1,18 +1,7 @@
 # Friendly Wager Facebook Chatbot
 
-## Setup
+## What is this? 
 
-Set the values in `config/default.json` before running. Descriptions of each parameter can be found in `app.js`. Alternatively, you can set the corresponding environment variables as defined in `app.js`.
+This was made for the 2018 Facebook Sports Hackathon, where it won Second Place Overall! It was fully concieved, designed, and presented within 6 hours. It uses FB's Messenger API (and a lot of its tutorial code still lingers as we ran out of time during the hackathon). It currently serves as a proof of concept for an idea that our team is slowly building upon and growing! 
 
-Replace values for `APP_ID` and `PAGE_ID` in `public/index.html`.
-
-## Run
-
-You can start the server by running `npm start`. However, the webhook must be at a public URL that the Facebook servers can reach. Therefore, running the server locally on your machine will not work.
-
-You can run this example on a cloud service provider like Heroku, Google Cloud Platform or AWS. Note that webhooks must have a valid SSL certificate, signed by a certificate authority. Read more about setting up SSL for a [Webhook](https://developers.facebook.com/docs/graph-api/webhooks#setup).
-
-## Webhook
-
-All webhook code is in `app.js`. It is routed to `/webhook`. This project handles callbacks for authentication, messages, delivery confirmation and postbacks. More details are available at the [reference docs](https://developers.facebook.com/docs/messenger-platform/webhook-reference).
 
